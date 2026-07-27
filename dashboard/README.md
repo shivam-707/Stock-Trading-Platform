@@ -1,16 +1,81 @@
-# React + Vite
+# Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React dashboard application built with Vite.
 
-Currently, two official plugins are available:
+This repository contains the `dashboard` frontend package for the Zerodha project. It uses React 19 and Vite 4+ for a fast development experience with hot module replacement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- React 19 app powered by Vite
+- Fast dev server with HMR
+- Build-ready output via Vite
+- ESLint configuration for basic linting
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project structure
 
-## Expanding the ESLint configuration
+- `src/` – React application source files
+- `public/` – static assets served by Vite
+- `package.json` – package metadata and scripts
+- `vite.config.js` – Vite configuration
+- `README.md` – project documentation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+### Prerequisites
+
+- Node.js 18+ or later
+- npm 10+ or a compatible package manager
+
+### Install dependencies
+
+```bash
+cd dashboard
+npm install
+```
+
+### Run development server
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal to view the app in the browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+### Run linting
+
+```bash
+npm run lint
+```
+
+## Customization
+
+- Edit `src/App.jsx` to update the main app content.
+- Update styles in `src/App.css` and `src/index.css`.
+- Add new components under `src/components` as needed.
+
+## Notes
+
+- This project currently includes only React and React DOM as runtime dependencies.
+- Vite is configured with `@vitejs/plugin-react` for React JSX support.
+- The current app includes a sample counter and documentation links.
+
+## Useful links
+
+- Vite: https://vite.dev/
+- React: https://react.dev/
+
+---
+
+If you want, I can also add a `Contribution` section or integrate a more detailed `Project Setup` guide for this repository.
