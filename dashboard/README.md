@@ -2,7 +2,7 @@
 
 A React dashboard application built with Vite.
 
-This repository contains the `dashboard` frontend package for the Zerodha project. It uses React 19 and Vite 4+ for a fast development experience with hot module replacement.
+This repository contains the `dashboard` frontend package for the Zerodha project. It uses React 19 for a fast development experience with hot module replacement.
 
 ## Features
 
