@@ -76,6 +76,3 @@ npm run lint
 - Vite: https://vite.dev/
 - React: https://react.dev/
 
----
-
-If you want, I can also add a `Contribution` section or integrate a more detailed `Project Setup` guide for this repository.
