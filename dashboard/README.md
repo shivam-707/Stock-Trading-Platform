@@ -71,8 +71,3 @@ npm run lint
 - Vite is configured with `@vitejs/plugin-react` for React JSX support.
 - The current app includes a sample counter and documentation links.
 
-## Useful links
-
-- Vite: https://vite.dev/
-- React: https://react.dev/
-
