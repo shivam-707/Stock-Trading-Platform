@@ -2,7 +2,7 @@
 
 A React dashboard application built with Vite.
 
-This repository contains the `dashboard` frontend package for the Zerodha project. 
+This repository contains the `dashboard` frontend package for the Stock-Trading Platform project. 
 
 ## Features
 
